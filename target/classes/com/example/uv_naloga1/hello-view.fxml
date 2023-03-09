@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="Datoteke">
+                  <items>
+                        <MenuItem mnemonicParsing="false" text="Odpri" />
+                        <MenuItem mnemonicParsing="false" text="Pobrisi" />
+                    <MenuItem mnemonicParsing="false" text="Iyhod" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Izbire1">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Izbire1 V" />
+                        <MenuItem mnemonicParsing="false" text="Izbire1 I" />
+                        <RadioMenuItem mnemonicParsing="false" text="Izbire1 D" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Izbire2">
+                  <items>
+                        <MenuItem mnemonicParsing="false" text="Izbire2 B" />
+                        <MenuItem mnemonicParsing="false" text="Izbire2 U" />
+                        <MenuItem mnemonicParsing="false" text="Izbire2 K" />
+                        <MenuItem mnemonicParsing="false" text="Izbire2 O" />
+                        <MenuItem mnemonicParsing="false" text="Izbire2 V" />
+                        <MenuItem mnemonicParsing="false" text="Izbire2 E" />
+                    <MenuItem mnemonicParsing="false" text="Izbire2 C" />
+                  </items>
+                </Menu>
+                  <Menu mnemonicParsing="false" text="Pomoc">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                    </items>
+                  </Menu>
+              </menus>
+            </MenuBar>
+            <ToolBar prefHeight="40.0" prefWidth="200.0">
+               <items>
+                  <Button mnemonicParsing="false" text="I1 V" />
+                  <Button mnemonicParsing="false" text="I2 I" />
+                  <Button mnemonicParsing="false" text="I3 D" />
+                  <Button layoutX="10.0" layoutY="13.0" mnemonicParsing="false" text="I2 B" />
+                  <Button layoutX="130.0" layoutY="13.0" mnemonicParsing="false" text="I2 U" />
+                  <Button layoutX="171.0" layoutY="13.0" mnemonicParsing="false" text="I2 K" />
+                  <Button layoutX="212.0" layoutY="13.0" mnemonicParsing="false" text="I2 O" />
+                  <Button layoutX="253.0" layoutY="13.0" mnemonicParsing="false" text="I2 V" />
+                  <Button layoutX="294.0" layoutY="13.0" mnemonicParsing="false" text="I2 E" />
+                  <Button layoutX="335.0" layoutY="13.0" mnemonicParsing="false" text="I2 C" />
+               </items>
+            </ToolBar>
+         </children>
+      </VBox>
+   </top>
+   <bottom>
+      <Label prefHeight="17.0" prefWidth="612.0" text="Label" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
